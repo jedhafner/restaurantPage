@@ -1,0 +1,100 @@
+body{
+    width: 884px;
+    align-items: center;
+    justify-items: center;
+    font-family: Georgia,Utopia,'Times New Roman',Times,serif;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+#content{
+}
+
+.logo{
+    margin: 20px 0px 20px 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#navbar p{
+    margin: 8px 70px 0px 0px;
+}
+
+#navbar :hover{
+    cursor: pointer;
+    color: grey;
+}
+
+hr {
+    margin: 14px 0px 20px 0px;
+}
+
+.slide img{
+    width: 884px;
+    height:589px;
+}
+
+#about, #menus, #wine, #hoursAndLocation{
+    display:none;
+}
+
+/*INDEX page styles*/
+.leftRightBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.footer h3{
+    color: grey;
+    font-weight: 400;
+    font-size: 13px;
+}
+#footerRight{
+    width: 200px;
+    display: block;
+}
+#address{
+    line-height: 21px;
+}
+#button{
+    background: black;
+    color: white;
+    font-family: Georgia,Utopia,'Times New Roman',Times,serif;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 15px;
+    padding: 5px;
+}
+/*ABOUT page styles*/
+.aboutLeft{
+    display: flex;
+    flex-direction: column;
+}
+.aboutLeft img{
+    margin: 0 auto;
+    padding: 20px;
+}
+/*MENU page styles*/
+#menus{
+    display: flex;
+    flex-direction: column;
+}
+#notice {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*WINE page styles*/
+#wine {
+    display: flex;
+    flex-direction: column;
+}
+#wine img{
+    width: 100%;
+}
+/*hoursAndLocation page styles*/
