@@ -27,7 +27,7 @@ const footer = document.createElement('div');
 
     const address = document.createElement('p');
     address.id = 'address';
-    address.innerHTML = "Navarre</br>10 NE 28th Avenue</br>Portland Oregon 97232</br>503. 232. 3555</br>First come, first served.</br>No reservations.</br>Outdoor seating only.</br>"
+    address.innerHTML = "Navarre</br>10 NE 28th Avenue</br>Portland Oregon 97232</br>503. 232. 3555</br>First come, first served.</br>No reservations.</br>Outdoor seating only.</br>THIS SITE IS AN HOMAGE AND TRIBUTE TO THE AMAZING RESTAURANT NAVARRE IN PDX, OR. VISIT NAVARREPORTLAND.COM"
     left.appendChild(address);
 
     const right = document.createElement('div');
