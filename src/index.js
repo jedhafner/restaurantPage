@@ -51,11 +51,13 @@ const footer = document.createElement('div');
 
 const navbar = document.getElementById('navbar');
 
+
 content.addEventListener('click', function(event){
     let clicked = event.target.textContent.toLowerCase();
     console.log("clicked: "+clicked);
 
     const divs = ['home','about','menus','wine','hoursAndLocation'];
+
 
    if (clicked === 'blog'){
     window.open("https://blog.navarreportland.com/");
